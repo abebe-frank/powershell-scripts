@@ -1,8 +1,6 @@
-## powershell-scripts
-### allow runing scripts
-``` Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ```
+# Please locate each solution and its usage guide in the readme file.
 
-### Install and Run Exchange Online Management
-``` Install-Module -Name ExchangeOnlineManagement ```
-``` Import-Module ExchangeOnlineManagement ```
-``` Connect-ExchangeOnline ```
+### Before you begin, follow these steps:
+1 Search for "Developer settings" in your taskbar and activate Developer mode.
+1 Execute the following command to enable scripts to run in your PowerShell.
+``` Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ```
