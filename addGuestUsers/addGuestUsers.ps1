@@ -8,7 +8,7 @@ $WorkSheetNum="Users" # Name of the table in the excel file
 
 if (!$lastLogin) {
    # put your Azure AD tenant id here (Azure portal / Azure Active Directory / Properties / Directory ID)
-   $global:lastLogin=Connect-AzureAD -TenantId "52c19be3-03a6-4923-844c-0af0653b8842"
+   $global:lastLogin=Connect-AzureAD -TenantId "***************"
 }
 
 $Excel = New-Object -ComObject Excel.Application
