@@ -3,6 +3,6 @@
 ``` Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ```
 
 ### Install and Run Exchange Online Management
-``` Install-Module -Name ExchangeOnlineManagement ```
-``` Import-Module ExchangeOnlineManagement ```
-``` Connect-ExchangeOnline ```
++ ``` Install-Module -Name ExchangeOnlineManagement ```
++ ``` Import-Module ExchangeOnlineManagement ```
++ ``` Connect-ExchangeOnline ```
