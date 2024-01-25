@@ -1,11 +1,15 @@
 import os
 import pandas as pd
 
+#add the file path
+userdata_path = ' '
+mailbox_path= ' '
+
 # Assuming users is your DataFrame with 'User principal name' and 'Licenses' columns
-users = pd.read_csv('users.csv')
+users = pd.read_csv(userdata_path)
 
 # Load the CSV file into a DataFrame
-df = pd.read_csv('REPORTTEST.CSV')
+df = pd.read_csv(mailbox_path)
 
 # Iterate through unique user principal names
 for user_principal_name in users['User principal name'].unique():
@@ -16,7 +20,7 @@ for user_principal_name in users['User principal name'].unique():
     filtered_df = df[df['Primary SMTP address'].isin([user_principal_name])]
 
     # Select specific columns in the filtered DataFrame
-    filtered_df = filtered_df[['Primary SMTP address', 'TotalItemSize']]
+    filtered_df = filtered_df[['Display Name','Primary SMTP address', 'TotalItemSize','ProhibitSendReceiveQuota-In-MB','ArchiveQuota','ArchiveTotalItemSize','ArchiveState']]
 
     # Add the 'Licenses' column with the obtained value
     filtered_df['Licenses'] = licenses_value
