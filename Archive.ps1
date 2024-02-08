@@ -1,0 +1,1 @@
+Start-ManagedFolderAssistant -Identity "email"
