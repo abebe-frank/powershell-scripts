@@ -1,3 +1,5 @@
+#Connect-account
+Connect-AzAccount
 # Define the output file path
 $outputFile = ""
  
