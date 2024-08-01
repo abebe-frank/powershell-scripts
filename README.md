@@ -5,4 +5,4 @@
 1. Execute the following command to enable scripts to run in your PowerShell.
 ``` Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ```
 >**Important:** In case you have an error running a command on the tenant 
-``` Enable-OrganinizationCustomization ```
+``` Enable-OrganizationCustomization ```
