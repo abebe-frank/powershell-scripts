@@ -4,5 +4,5 @@
 1. Search for "Developer settings" in your taskbar and activate Developer mode.
 1. Execute the following command to enable scripts to run in your PowerShell.
 ``` Set-ExecutionPolicy -ExecutionPolicy RemoteSigned ```
->**Important:** Incase you have an error running a command on the tenant 
+>**Important:** In case you have an error running a command on the tenant 
 ``` Enable-OrganinizationCustomization ```
