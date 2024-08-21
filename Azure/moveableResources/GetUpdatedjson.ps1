@@ -41,4 +41,4 @@ foreach ($rowMatch in $rowMatches) {
     }
 }
 
-$nonMovableResourceTypes | ConvertTo-Json | Out-File -FilePath "NonMovableResources2.json"
+$nonMovableResourceTypes | ConvertTo-Json | Out-File -FilePath "NonMovableResources.json"
