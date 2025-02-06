@@ -1,1 +1,1 @@
-Set-MailboxAutoReplyConfiguration -Identity finance@mhasibusacco.com -AutoReplyState Enabled -InternalMessage "msg...." -ExternalMessage " msg...." -ExternalAudience All
+Set-MailboxAutoReplyConfiguration -Identity finance@fn.com -AutoReplyState Enabled -InternalMessage "msg...." -ExternalMessage " msg...." -ExternalAudience All
