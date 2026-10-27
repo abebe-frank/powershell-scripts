@@ -218,3 +218,5 @@ Disconnect-MgGraph
 4. Verify the replacement Exchange service plan.
 5. Remove the old license.
 6. Verify the user's final licenses and mailbox.
+
+   
