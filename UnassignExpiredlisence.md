@@ -44,8 +44,9 @@ Run PowerShell as an administrator, and then run:
 ```powershell
 Install-Module Microsoft.Graph -Scope CurrentUser
 Connect-MgGraph -Scopes User.ReadWrite.All, Directory.ReadWrite.All
-Get-MgUserLicenseDetail -UserId mebel.darlene@capitalpayinternational.com
+
 $userId = "user@domain.com"
+Get-MgUserLicenseDetail -UserId $userId
 $skuIds = (Get-MgUserLicenseDetail -UserId $userId).SkuId
 Set-MgUserLicense -UserId $userId -AddLicenses @() -RemoveLicenses $skuIds
 ```
