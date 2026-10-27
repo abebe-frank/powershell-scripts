@@ -1,4 +1,4 @@
-# Retain Exchange Online and Remove the Old Microsoft 365 License
+#  Remove the Expired Old Microsoft 365 License
 
 ## Purpose
 
